@@ -39,6 +39,11 @@ header{
     text-decoration: none;
     color: white;
 }
+input{
+    border-radius: 13px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(2px);
+}
 .btn{    
     display: block;
     background-color: green;
@@ -47,13 +52,16 @@ header{
     border-radius: 10px;
     font-size: 16;
     border: none;
+    background-image:url(../img/1.png);
 }
 .btna{
     display: block;
-    background-color: green;
     color: white;
+    background-color: rgba(0, 128, 0, 0.3);
     padding: 8px 14px;
     font-size: 16;
+    backdrop-filter: blur(2px);
+    border: 3px solid rgba(255, 255, 255, 0.5);
 }
 h1{
     font-size: 60px;
@@ -128,10 +136,13 @@ address{
     margin: 100px auto;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    background-image:url(../img/1.png);
 }
 address a{
     text-decoration: none;
     color: black;
+    backdrop-filter: blur(2px);
 }
 
 @media(max-width: 1329px){
