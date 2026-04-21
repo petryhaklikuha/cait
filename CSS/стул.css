@@ -54,6 +54,17 @@ input{
     border: none;
     background-image:url(../img/1.png);
 }
+.btnb{    
+    display: block;
+    background-color: green;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 10px;
+    font-size: 16;
+    border: none;
+    background-image:url(../img/1.png);
+    text-align: center;
+}
 .btna{
     display: block;
     color: white;
