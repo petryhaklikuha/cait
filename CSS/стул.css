@@ -173,3 +173,81 @@ address a{
         gap: 50px;
     }
 }
+@media(max-width: 687px){
+    .hiro-section li{
+        width: 60px;
+        font-size: 12px;
+    }
+}
+@media(max-width: 517px){
+    .hiro-section li{
+        width: 50px;
+        font-size: 10px;
+    }
+}
+@media(max-width: 466px){
+    .hiro-section li{
+        width: 40px;
+        font-size: 9px;
+    }
+}
+@media(max-width: 426px){
+    .hiro-section li{
+        width: 30px;
+        font-size: 8px;
+    }
+}
+@media(max-width: 374px){
+    .hiro-section li{
+        width: 20px;
+        font-size: 7px;
+    }
+}
+@media(max-width: 323px){
+    .hiro-section li{
+        width: 10px;
+        font-size: 6px;
+    }
+}
+@media(max-width: 303px){
+    .hiro-section input{
+        width: 150px;
+    }
+    .hiro-section h1{
+        font-size: 40px;
+    }
+}
+@media(max-width: 281px){
+    .hiro-section input{
+        width: 100px;
+    }
+    /* .hiro-section h1{
+        font-size: 40px;
+    } */
+}
+@media(max-width: 271px){
+    .hiro-section li{
+        width: 5px;
+        font-size: 5px;
+    }
+}
+/* Под кнопочный телефон лол */
+@media(max-width: 240px){
+    .hiro-section li{
+        width: 3px;
+        font-size: 4px;
+    }
+    .hiro-section input{
+        width: 90px;
+    }
+    .hiro-section h1{
+        font-size: 30px;
+    }
+    .hiro-section li{
+        width: 3px;
+    }
+    .hiro-section{
+        padding: 10px;
+    }
+}
+    
