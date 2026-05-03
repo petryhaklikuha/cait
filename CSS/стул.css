@@ -156,6 +156,9 @@ address a{
     color: black;
     backdrop-filter: blur(2px);
 }
+footer{
+    background-color: black;
+}
 
 @media(max-width: 1329px){
     .wrapper img{
